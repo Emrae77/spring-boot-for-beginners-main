@@ -1,17 +1,41 @@
-# Getting Started
+# Spring Boot Student Management System
 
-### Reference Documentation
-For further reference, please consider the following sections:
+This repository houses a Spring Boot application designed for managing student information, enabling CRUD (Create, Read, Update, Delete) operations. The system allows you to create new student records, update existing ones, and delete them from a database.
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.0.3/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.0.3/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/3.0.3/reference/htmlsingle/#web)
+## Project Overview
 
-### Guides
-The following guides illustrate how to use some features concretely:
+This Spring Boot application is structured to demonstrate basic CRUD operations using:
+- **Controller**: Manages HTTP requests and responses.
+- **Service**: Handles business logic.
+- **DAO (Data Access Object)**: Abstracts and encapsulates all access to the data source.
+- **Repository**: Interface to handle data operations.
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+The application is containerized using Docker, simplifying deployment and environment setup.
 
+## Features
+
+- **Create**: Add new student records to the database.
+- **Read**: View existing student information.
+- **Update**: Modify details of existing students.
+- **Delete**: Remove student records from the database.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You need to have the following installed on your system:
+- Java JDK 11 or newer
+- Maven 3.6 or higher
+- Docker
+
+### Installing and Running
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/student-management-system.git
+   cd student-management-system
+Build the project with Maven:
+
+bash
